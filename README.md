@@ -2,7 +2,7 @@
 
 **Nesse tutorial, irei mostrar como criar pipelines no jenkins para iniciar o job de criação e destruição da infraestrutura na Google Cloud Platform usando terraform e salvando o arquivo tfstat em um bucket.**
 
-![infra](https://user-images.githubusercontent.com/97743829/176010879-a79a2c30-7071-402d-8710-a78b4b89b5d7.JPG)
+![infra](https://user-images.githubusercontent.com/97743829/176186128-c18e38a4-dc70-4fcb-97ac-fe2634f7569f.JPG)
 
 A imagem acima mostra o fluxograma de criação da infraestrutura (vm + bucket) através do job Terraform_pipeline e também sua remoção através do job Terraform_destroy (exceto o bucket) pelo Jenkins.
 
